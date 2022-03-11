@@ -1,0 +1,106 @@
+body {
+  font-family: 'Lora', serif;
+  background-color: rgb(200, 200, 200);
+}
+
+h1, h2, h3 {
+  font-family: 'monospace;', sans-serif;
+}
+
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: url(file:///C:/Users/eleda/OneDrive/Bureau/nouveau_site/fond_header_cv.webp) #4f4f4f;
+    box-shadow: 0px 0px 15px #333;
+}
+
+header h1{
+    color: white;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+
+div {
+  background-color: white;
+  text-align: center;
+  padding: 24px;
+  width: 70%;
+  margin: 16px auto;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px 2px #000000b5;
+}
+
+#profil {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+/*sous-la-prez*/
+a {
+  text-decoration: none;
+}
+
+.prez {
+  background-color: rgb(97, 154, 212);
+}
+
+.btn-CV {
+  color: white;
+  background-color: rgb(155, 127, 89);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: bolder;
+  border: 1px rgb(155, 127, 89);
+  transition:  0.4s;
+}
+
+.btn-CV:hover {
+  background-color: rgb(130, 100, 70);
+  color: whitesmoke;
+  transition: 0.4s;
+}
+
+.contact-global {
+  background-color: rgb(198, 229, 243);
+}
+
+.contact{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.contact p:first-child{
+    flex: 0 0% 0%;
+}
+
+.contact p:last-child{
+    flex: 0 0 80%;
+}
+
+.list-inline {
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 16px;
+  font-size: 40px;
+}
+
+.RS {
+  background-color: #E4D4C6;
+}
+
+.fa-brands {
+  color:  rgba(0, 0, 0, 0.4);
+}
+
+.fa-brands:hover {
+  color:  black;
+}
